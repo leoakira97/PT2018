@@ -1,0 +1,73 @@
+.tabelapedidos {
+    width: 100%;
+    border-spacing: 0px;
+    text-align: left;
+
+}
+
+.headpedidos th {
+    background-color: #DEE2E6;
+    padding: 1%;
+    padding-left: 2%;
+    color: black;
+    font-size: 100%;
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+.bodypedidos th {
+    padding: 0.8%;
+    padding-left: 2%;
+    border-bottom: solid  #DEE2E6 1.5px;
+    font-size: 90%;
+    color: #6B6C6D;
+    font-family: arial, helvetica;
+    font-weight: lighter;
+}
+
+.bodypedidos .statusbody {
+        text-align: center;
+        color: white;
+        font-size: 75%;
+        padding: 1%;
+}
+
+.statushead {
+    width: 20%;
+}
+
+.statusbody .boxcan {
+    background-color: #E82431;
+    border-radius: 5px;
+    align-content: center;
+    padding: 3%;
+    width: 70%;
+}
+
+.statusbody .boxent {
+    background-color: #28a745;
+    border-radius: 5px;
+    align-content: center;
+    padding: 3%;
+    width: 70%;
+}
+
+.statusbody .boxpen {
+    background-color: #007bff;
+    border-radius: 5px;
+    align-self: auto;
+    padding: 3%;
+    width: 70%;
+}
+
+.bodypedidos .verit {
+    color: #007bff;
+}
+
+.bodypedidos .editar {
+    color: #FDDF4C;
+}
+
+.bodypedidos .excluir {
+    color: #E82431;
+}
